@@ -1,0 +1,66 @@
+*
+{
+    margin:0;
+  
+}
+body{
+  
+}
+.app
+{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #2C3335;
+}
+
+.app_header
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.app_header h1{
+    color:#fff;
+}
+.app_header span{
+    color:red;
+}
+.app_header img
+{
+    background: none;
+    
+    width: 300px;
+}
+.app_stats
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.app_left
+{
+    flex:0.9;
+}
+.app_dropdown
+{
+    background-color: #DAE0E2;
+    color:black;
+}
+.app_right h3
+{
+    color:#2C3335;
+}
+.app_right_card
+{
+    background-color: #DAE0E2;
+}
+
+
+
+@media (max-width:990px) {
+    .app{
+        flex-direction: column;
+        }
+}

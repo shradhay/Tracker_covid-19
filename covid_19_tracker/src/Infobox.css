@@ -1,0 +1,48 @@
+.infoBox {
+    flex: 1;
+
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:32px;
+    padding-bottom: 32px;
+    box-shadow: 0 2px 5px  grey;
+    border-radius: 70px;
+    background-color: #DAE0E2 !important;
+   
+  }
+  .infoBox Card
+  {
+
+  }
+  
+  .infoBox:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .infoBox--selected {
+    border-top: 10px solid greenyellow;
+  }
+  
+  .infoBox--red {
+    border-color: red;
+  }
+  
+  .infoBox_cases--green {
+    color: lightgreen !important;
+  }
+  
+  .infoBox_cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .infoBox_total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
+  
